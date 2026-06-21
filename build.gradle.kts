@@ -42,6 +42,8 @@ subprojects {
     repositories {
         mavenCentral()
         maven(paperMavenPublicUrl)
+        maven("https://repo.lucko.me/")
+        mavenLocal()
     }
 
     extensions.configure<PublishingExtension> {

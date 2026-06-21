@@ -154,9 +154,9 @@ dependencies {
     testImplementation("org.ow2.asm:asm-tree:9.9.1")
     testImplementation("org.junit-pioneer:junit-pioneer:2.3.0") // CartesianTest
 
-    // Spark
+    // Spark — requires spark-paper compiled against Adventure 5.x (see lucko/spark fix/paper-adventure-5)
     implementation("me.lucko:spark-api:0.1-20240720.200737-2")
-    implementation("me.lucko:spark-paper:1.10.152")
+    implementation("me.lucko:spark-paper:1.10.173")
 }
 
 tasks.jar {
